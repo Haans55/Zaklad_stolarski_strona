@@ -1,33 +1,23 @@
-# Projekt1
+# Zakład Stolarski - DREW-POL
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+### 1. Autor projektu - Szymon Jędrzejas
 
-## Development server
+### 2. Strona internetowa wykonana z użyciem technologii Angular. Posiada 4 podstrony. Na dwóch pierwszych zastosowałem paginacje z użyciem <em>ngx-pagination</em> oraz dodałem search bar z użyciem <em>ng2-search-filter</em>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 3. Wspomagałem się dokumentacją oraz losowymi tutorialami z YouTuba
 
-## Code scaffolding
+## Galeria 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Podstrona <em>Schody</em>
+![alt text](./zdjecia/screen1.png)
 
-## Build
+### Podstrona <em>Kontakt</em>
+![alt text](./zdjecia/screen2.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Podstrona <em>Galeria</em>
+![alt text](./zdjecia/screen3.png)
 
-## Running unit tests
+### <em>Wygląd galerii</em>
+![alt text](./zdjecia/screen4.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-"# Zaklad_stolarski_strona" 
-"# Zaklad_stolarski_strona" 
-"# Zaklad_stolarski_strona" 
-"# Zaklad_stolarski_strona" 
-"# Zaklad_stolarski_strona" 
-"# Zaklad_stolarski_strona" 
