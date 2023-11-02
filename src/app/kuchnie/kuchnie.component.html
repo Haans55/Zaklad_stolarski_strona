@@ -1,0 +1,13 @@
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search>
+<section class="section-kuchnie">
+    <div class="kuchnie" *ngFor="let kuchnie of Kuchnie | paginate: {itemsPerPage: itemsPerPage, currentPage: p}">
+        <div *ngIf="searchText === '' || kuchnie.Marka.toLowerCase().includes(searchText) || kuchnie.Model.toLowerCase().includes(searchText)">
+            <h3 class="marka">{{ kuchnie.Marka }} {{ kuchnie.Model }}</h3>
+            <p class="opis">{{ kuchnie.Opis }}</p>
+            <p class="cena">{{ kuchnie.Cena }}PLN</p>
+            <img src="{{kuchnie.Zdjecie}}" alt="Kuchnie" class="img">
+        </div>
+    </div>
+
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</section>

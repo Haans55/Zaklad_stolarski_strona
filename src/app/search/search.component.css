@@ -1,0 +1,15 @@
+.search-container {
+    text-align: center;
+}
+
+input {
+    border-radius: 7px;
+    width: 19%;
+    padding: 10px;
+    border: 3px solid green;
+}
+
+span {
+    font-size: 19px;
+    color: black;
+}

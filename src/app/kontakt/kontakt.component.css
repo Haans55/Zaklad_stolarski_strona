@@ -1,0 +1,63 @@
+.container {
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 25px 40px 20px 40px;
+    background-color: green;
+    color: #FFF;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.container .name1 {
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-md-6,
+.col-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container .tel {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+.container .fas {
+    margin-right: 50px;
+    margin-right: 5px;
+}
+
+.container .email {
+    font-size: 1.6rem;
+    text-align: right;
+}
+
+p {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}

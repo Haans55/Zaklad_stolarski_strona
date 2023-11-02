@@ -1,0 +1,15 @@
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search>
+<section class="section-schody">
+    <div class="schodyy" *ngFor="let schody of Schody | paginate: {itemsPerPage: itemsPerPage, currentPage: p}">
+        <div *ngIf="searchText === '' || schody.Marka.toLowerCase().includes(searchText) || schody.Model.toLowerCase().includes(searchText)">
+            <h3 class="marka">{{ schody.Marka }} {{ schody.Model }}</h3>
+            <p class="opis">{{ schody.Opis }}</p>
+            <p class="materiał">{{ schody.Material }}</p>
+            <p class="cena">{{ schody.Cena }}PLN</p>
+            <img src="{{schody.Zdjecie}}" alt="dadasdasda" class="img">
+        </div>
+    </div>
+    <div class="mt-8 py-5 flex justify-center items-center">
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+</section>

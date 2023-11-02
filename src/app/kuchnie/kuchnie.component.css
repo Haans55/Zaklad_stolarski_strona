@@ -1,0 +1,56 @@
+.section-kuchnie {
+    display: grid;
+    grid-template-columns: repeat(3, 45rem);
+    justify-content: space-around;
+    row-gap: 6.6rem;
+    margin-top: 70px;
+}
+
+.kuchnie {
+    background-color: #cccccc;
+    border-radius: 20px;
+    border: 3px solid green;
+    height: 41rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.marka {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 11px;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opis {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cena {
+    text-align: center;
+    font-weight: bold;
+    color: #8c38ff;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kuchnie:hover {
+    transition: all 0.6s;
+    transform: scale(1.12);
+}
+
+.img {
+    width: 415px;
+    margin-top: 18px;
+    height: 245px;
+    border-radius: 10px;
+}
